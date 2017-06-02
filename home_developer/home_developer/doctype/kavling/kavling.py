@@ -9,7 +9,7 @@ from frappe.model.document import Document
 class Kavling(Document):
 
 	def autoname(self):
-		self.name = self.naming_series + self.nama_kavling
+		self.name=self.naming_series + self.nama_kavling
 
 		
 @frappe.whitelist()
